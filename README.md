@@ -1,4 +1,5 @@
 # BMX-Pos-Calc   
+This project has been developed on Python using TKinter for GUI   
 The aim of this project is to provide proper Risk Management to traders on Bitmex (crypto exchange).  
 This app takes these variables as input:-   
 1. BTC capital  
