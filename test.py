@@ -68,8 +68,8 @@ price = (requests.get('https://www.bitmex.com/api/v1/trade?symbol=XBT&count=1&re
 def calc():
     capital = txt0.get()
     entry_p = txt1.get()
-    exit_p = txt2.get()
-    sl = txt3.get()
+    sl = txt2.get()
+    exit_p = txt3.get()
     risk = txt4.get()
     capital1 = float(capital) * float(price)
     size = (float(capital1) * float(risk) / 100)/((float(entry_p) - float(sl))/float(entry_p))
